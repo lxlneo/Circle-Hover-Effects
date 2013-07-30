@@ -1,1 +1,36 @@
 /**样式表***/
+body{
+	background: #dcdcdc;
+}
+.list{
+	position: relative;
+	list-style: none;
+	width: 1000px;
+	height: 200px;
+	 
+	left: 50%;
+	margin-left: -500px;
+}
+
+.list li{
+	
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+	display: inline-block;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-radius: 100px;
+	background-image:url("img/01.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-webkit-box-shadow: 0px 0px 0 100px rgba(255,255,255,.3) inset;
+	-webkit-transition: background-image .8s ease-in .1s,box-shadow .8s ease-out .1s;
+	
+}
+.list li:hover{
+    background-image:url("img/02.jpg"); 
+    box-shadow: 0px 0px 0 0px rgba(255,255,255,.3) inset;
+}
