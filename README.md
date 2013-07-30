@@ -8,7 +8,7 @@ css 圆形hover 效果
 --
 transition：[ transition-property ] || [ transition-duration ] || [ transition-timing-function ] || [ transition-delay ]
 
-默认值：看每个独立属性
+默认值：
 --
 适用于：所有元素，包含伪对象:after和:before
 继承性：无
